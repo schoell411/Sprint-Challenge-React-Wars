@@ -1,4 +1,6 @@
 import React from 'react';
+import ReactDOM from "react";
+import Characters from "./components/CharacterList";
 import './App.css';
 
 const App = () => {
@@ -12,6 +14,9 @@ const App = () => {
   return (
     <div className="App">
       <h1 className="Header">React Wars</h1>
+      <div className="Characters">
+        <Characters />
+      </div>
     </div>
   );
 }
