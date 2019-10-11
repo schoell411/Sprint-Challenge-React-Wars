@@ -1,8 +1,18 @@
 .App {
   text-align: center;
 }
-.Header {
+.Header{
+  font-size: 75px;
+}
+.Header, .character_card {
   color: #443e3e;
   text-shadow: 1px 1px 5px #fff;
 }
-/* write your parent styles in here for your App.js */
+.character_card {
+  /* display: flex;
+  flex-direction: row; */
+  border: 1px solid white;
+}
+.character_name {
+  font-size: 40px;   
+}
