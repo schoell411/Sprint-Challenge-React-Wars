@@ -12,7 +12,7 @@ const CharacterCard = props => {
                 <CardSubtitle>
                     Bio
                 </CardSubtitle>
-                <CardText>{props.name} is {props.height}cm tall,weighs {props.mass}kg, with {props.hair_color} hair, and {props.skin_color} skin.
+                <CardText>{props.name} is {props.height}cm tall, weighs {props.mass}kg, with {(props.hair_color === "n/a" || "none") ? "no" : props.hair_color} hair, and {props.skin_color} skin.
                 </CardText>
             </CardBody>
         </Container>
