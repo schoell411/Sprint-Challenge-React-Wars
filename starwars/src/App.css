@@ -9,9 +9,9 @@
   text-shadow: 1px 1px 5px #fff;
 }
 .character_card {
-  /* display: flex;
-  flex-direction: row; */
   border: 1px solid white;
+  background-color: antiquewhite;
+  opacity: .5;
 }
 .character_name {
   font-size: 40px;   

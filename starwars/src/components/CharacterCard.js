@@ -1,12 +1,12 @@
 import React from "react";
-import {Card, CardText, CardBody,
-    CardTitle, CardSubtitle, Container, Row, Col} from 'reactstrap';
+import {CardText, CardBody,
+    CardTitle, CardSubtitle, Container} from 'reactstrap';
 import "../App.css";
 import styled from "styled-components";
 
 const CharacterCard = props => {
     return (
-        <Container style = {{width:"25%", height:"60%"}} className="character_card">
+        <Container style = {{width:"40%", height:"60%"}} className="character_card">
             <CardBody>
                 <CardTitle className="character_name">{props.name}</CardTitle>
                 <CardSubtitle>

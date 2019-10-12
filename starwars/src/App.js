@@ -1,5 +1,5 @@
 import React from 'react';
-import Characters from "./components/CharacterList";
+import Character from "./components/CharacterList";
 import './App.css';
 import styled from 'styled-components';
 
@@ -15,7 +15,7 @@ const App = () => {
     <div className="App">
       <h1 className="Header">React Wars</h1>
       <div className="Characters">
-        <Characters />
+        <Character />
       </div>
     </div>
   );
