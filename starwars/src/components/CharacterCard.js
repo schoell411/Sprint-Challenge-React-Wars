@@ -6,8 +6,8 @@ import styled from "styled-components";
 
 const CharacterCard = props => {
     return (
-        <Container style = {{width:"40%", height:"60%"}} className="character_card">
-            <CardBody>
+        <Container style = {{width:"60%", height:"60%"}} className="character_card">
+            <CardBody className="card">
                 <CardTitle className="character_name">{props.name}</CardTitle>
                 <CardSubtitle>
                     Bio
